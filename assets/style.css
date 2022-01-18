@@ -1,0 +1,93 @@
+div.en,  :lang(en) {  display: none;  }
+div.fr,  :lang(fr) {  display: none;  }
+
+/* font-family: 'Cabin Sketch', cursive;
+font-family: 'Fredericka the Great', cursive;
+font-family: 'Goldman', cursive;
+font-family: 'Playfair Display', serif;
+font-family: 'Zilla Slab Highlight', cursive;
+font-family: 'Tangerine', cursive; */
+
+.top > * {
+    vertical-align: top;
+}
+
+.text-top > * {
+    vertical-align: text-top;
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+    #site-bg {
+        background-image: url("background_mobile.jpg");
+        background-color: #dddcdc;
+        background-position: top center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        padding: 25px;
+        height: 100vh
+    }
+
+    .giftes {
+        font-family: 'Goldman', cursive;
+        font-size: 48px;
+        text-shadow: 4px 4px 4px rgb(255, 255, 255);
+    }
+    
+    .firstnames {
+        font-family: 'Tangerine', cursive;
+        font-weight: bolder;
+        font-size: 62px;
+        text-shadow: 4px 4px 4px rgb(255, 255, 255);
+    }
+    
+    .bryllup {
+        font-family: 'Goldman', cursive;
+        font-size: 32px;
+        text-shadow: 4px 4px 4px rgb(255, 255, 255);
+    }
+    
+    .menu_headlines {
+        font-family: 'Goldman', cursive;
+        font-size: 18px;
+        text-shadow: 4px 4px 4px rgb(207, 200, 200);
+    }
+  }
+
+/* Desktop */
+@media (min-width: 601px) {
+    #site-bg {
+        background-image: url("background_desktop.jpg");
+        background-color: #dddcdc;
+        background-position: top center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        padding: 25px;
+        height: 100vh
+    }
+
+    .giftes {
+        font-family: 'Goldman', cursive;
+        font-size: 48px;
+    }
+    
+    .firstnames {
+        font-family: 'Tangerine', cursive;
+        font-weight: bolder;
+        font-size: 128px;
+        text-shadow: 4px 4px 4px rgb(102, 103, 104);
+    }
+    
+    .bryllup {
+        font-family: 'Goldman', cursive;
+        font-size: 32px;
+    }
+    
+    .menu_headlines {
+        font-family: 'Goldman', cursive;
+        font-size: 24px;
+        text-shadow: 4px 4px 4px rgb(207, 200, 200);
+    }
+}
