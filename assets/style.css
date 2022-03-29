@@ -1,12 +1,5 @@
-div.en,  :lang(en) {  display: none;  }
-div.fr,  :lang(fr) {  display: none;  }
-
-/* font-family: 'Cabin Sketch', cursive;
-font-family: 'Fredericka the Great', cursive;
-font-family: 'Goldman', cursive;
-font-family: 'Playfair Display', serif;
-font-family: 'Zilla Slab Highlight', cursive;
-font-family: 'Tangerine', cursive; */
+.en,  :lang(en) {  display: none;  }
+.fr,  :lang(fr) {  display: none;  }
 
 .top > * {
     vertical-align: top;
